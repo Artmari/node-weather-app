@@ -1,0 +1,39 @@
+body {
+  color: #333333;
+  font-family: arial;
+  margin: 0px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+.header__title {
+  text-align: center;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin: 10px;
+}
+.main{
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  padding: 20px 0;
+  text-align: center;
+}
+.header__nav {
+  text-align: center;
+}
+
+.weather__info{
+  margin: 10px 0;
+  
+}
